@@ -17,3 +17,6 @@ Luego para correr la aplicación solo deben ejecutar
 ```
 python App.py
 ```
+
+Por defecto la aplicación correrá en el puerto 5000.
+Si quieren cambiar el puerto, lo hacen editando la última linea de App.py.

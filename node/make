@@ -1,0 +1,8 @@
+npm run build
+cd build
+tar -czvf cc3201.tar.gz *
+mv cc3201.tar.gz ../.
+cd ..
+scp cc3201.tar.gz mtoro@anakena.dcc.uchile.cl:.
+ssh mtoro@anakena.dcc.uchile.cl './install'
+
